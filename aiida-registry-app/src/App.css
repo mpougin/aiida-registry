@@ -475,6 +475,11 @@ padding-right: 5px;
   .suggestion-item:hover {
     background-color: #f2f2f2;
   }
+  .bar-container {
+    display: flex;
+    flex-direction: row;
+    margin: 0 2%;
+  }
 
 
 @media only screen and (min-width : 150px) and (max-width : 780px)
@@ -519,5 +524,9 @@ padding-right: 5px;
       .footer
       {
         width: calc(100% - 70px) !important;
+      }
+      .bar-container
+      {
+        display: block;
       }
   }
